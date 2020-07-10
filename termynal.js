@@ -11,7 +11,7 @@
 'use strict';
 
 /** Generate a terminal widget. */
-class Termynal {
+export default class Termynal {
     /**
      * Construct the widget's settings.
      * @param {(string|Node)=} container - Query selector or container element.
@@ -190,8 +190,8 @@ class Termynal {
 /**
 * HTML API: If current script has container(s) specified, initialise Termynal.
 */
-if (document.currentScript.hasAttribute('data-termynal-container')) {
-    const containers = document.currentScript.getAttribute('data-termynal-container');
-    containers.split('|')
-        .forEach(container => new Termynal(container))
-}
+//if (document.currentScript.hasAttribute('data-termynal-container')) {
+//    const containers = document.currentScript.getAttribute('data-termynal-container');
+//    containers.split('|')
+//        .forEach(container => new Termynal(container))
+//}
