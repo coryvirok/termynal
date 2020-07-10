@@ -1,0 +1,19 @@
+{
+  "name": "termynal",
+  "version": "0.1.0",
+  "description": "A lightweight and modern animated terminal window",
+  "main": "termynal.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coryvirok/termynal.git"
+  },
+  "author": "Ines Montani",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/coryvirok/termynal/issues"
+  },
+  "homepage": "https://github.com/coryvirok/termynal#readme"
+}
