@@ -42,7 +42,7 @@
 }
 
 [data-termynal]:after {
-    content: attr(data-title, 'bash');
+    content: attr(data-title);
     position: absolute;
     color: var(--color-text-subtle);
     top: 5px;
